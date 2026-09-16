@@ -1,0 +1,79 @@
+{
+ "value": [
+  {
+   "id": "12737755",
+   "institutionId": 4296,
+   "organizationId": 45651,
+   "organizationIds": [],
+   "branchId": 45115,
+   "branchIds": [],
+   "organizationName": "UNC Career Center ",
+   "organizationProfilePicture": "fcef3f2f-a2de-4284-ab5e-3b9aa66a58ff1a1d9336-1d0a-4fd1-9d6e-a99522c192ed.jpeg",
+   "organizationNames": [],
+   "name": "Tesla x University of North Carolina, Chapel Hill | Supercharging Your Resume",
+   "description": "<p>Join Tesla recruiters and hiring managers for a workshop that will offer tips on how to make your resume stand out amongst the competition for internship and full-time opportunities. In addition, recruiters will share insight on the applicant tracking system, resume sourcing, and highlight opportunities that align with students.</p>",
+   "location": "Online",
+   "startsOn": "2026-09-16T21:00:00+00:00",
+   "endsOn": "2026-09-16T21:30:00+00:00",
+   "imagePath": "b436a958-a2a3-4d6a-8297-add8d192492143ce166c-82e1-49fc-ae9a-683d138efa69.png",
+   "theme": "Social",
+   "categoryIds": [
+    "7343",
+    "9110",
+    "9111",
+    "17087",
+    "19688"
+   ],
+   "categoryNames": [
+    "Graduate & Professional Student Program",
+    "Leadership Development",
+    "Career Exploration & Development",
+    "Civic Engagement, Public Service, & Philanthropy",
+    "Community Building & Social Activities"
+   ],
+   "benefitNames": [
+    "Free Stuff"
+   ],
+   "visibility": "Public",
+   "status": "Approved",
+   "latitude": null,
+   "longitude": null,
+   "recScore": null,
+   "rsvpTotal": 8,
+   "@search.score": 222.58484
+  },
+  {
+   "id": "12139973",
+   "institutionId": 4296,
+   "organizationId": 419032,
+   "organizationIds": [],
+   "branchId": 45115,
+   "branchIds": [],
+   "organizationName": "Engineering at Carolina",
+   "organizationProfilePicture": "74f4ae37-ceff-408e-a233-aee8c2d127a7a6eab568-23c2-40ac-8398-d29fd4e15558.png",
+   "organizationNames": [],
+   "name": "Tesla Resume Workshop",
+   "description": "<p style=\"text-align: left;\">Before we meet with a Tesla Recruiter on 2/12 and submit our resumes, we are hosting this workshop to ensure everyone's resumes are in good shape. Join us in the Dey Hall Rm 2/06; please bring your laptop and current resume.&nbsp;</p>",
+   "location": "Dey Hall Rm 206",
+   "startsOn": "2026-02-05T23:00:00+00:00",
+   "endsOn": "2026-02-06T00:00:00+00:00",
+   "imagePath": "341a7bc9-3b07-40a8-a27d-05330665e6f0b5ceec85-52fa-4ce8-b508-61da1f3b8b35.png",
+   "theme": "ThoughtfulLearning",
+   "categoryIds": [
+    "217"
+   ],
+   "categoryNames": [
+    "Applications, Auditions, & Tryouts"
+   ],
+   "benefitNames": [],
+   "visibility": "Public",
+   "status": "Approved",
+   "latitude": "35.909840",
+   "longitude": "-79.050760",
+   "recScore": null,
+   "rsvpTotal": 1,
+   "@search.score": 4.2264647
+  }
+ ],
+ "@odata.count": 2
+}

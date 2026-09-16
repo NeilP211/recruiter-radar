@@ -1,0 +1,100 @@
+{
+ "events": [
+  {
+   "id": "CAL-8a002cbd-9fb2e569-01a0-92317e1f-00007378demobedework@mysite.edu_20260916T190000Z",
+   "start_timestamp": "2026-09-16T19:00:00Z",
+   "end_timestamp": "2026-09-16T20:00:00Z",
+   "summary": "Engineering Master's Career Drop-In Hours",
+   "description": "Attend drop-in hours for quick advice and feedback that lasts 10-15 minutes. Career Drop-In Hours take place Tuesday-Friday while classes are in session.",
+   "status": "CONFIRMED",
+   "sponsor": "Engineering Graduate Student Programs & Services (GSPS)",
+   "co_sponsors": [
+    "Pratt School of Engineering"
+   ],
+   "location": {
+    "address": "Fitzpatrick 2602 (2nd floor fishbowl)"
+   },
+   "contact": {
+    "name": "Johnson, Jenny",
+    "email": "jenny.johnson@duke.edu",
+    "phone": "919-660-1057"
+   },
+   "categories": [
+    "Engineering"
+   ],
+   "link": "https://calendar.duke.edu/show?fq=id:CAL-8a002cbd-9fb2e569-01a0-92317e1f-00007378demobedework@mysite.edu_20260916T190000Z",
+   "event_url": "https://sites.duke.edu/prattgsps/career-communications-team/11-coaching/",
+   "submitted_by": [
+    "ald49"
+   ],
+   "allday": false
+  },
+  {
+   "id": "CAL-8a002cbd-9fb2e569-019f-f1d514be-00002298demobedework@mysite.edu",
+   "start_timestamp": "2026-09-28T22:00:00Z",
+   "end_timestamp": "2026-09-28T23:30:00Z",
+   "summary": "OpenAI Day",
+   "description": "During the kickoff of Duke Tech Week (Sept. 28-Oct. 1) Hear from an OpenAI representative virtually in this 90-minute session for advanced users of ChatGPT Edu. Zoom link to come.",
+   "status": "CONFIRMED",
+   "sponsor": "Office of Information Technology (OIT)",
+   "co_sponsors": null,
+   "location": {
+    "address": "Virtual; link to come"
+   },
+   "contact": {
+    "name": "Jackson, Camille",
+    "email": "camille.jackson@duke.edu"
+   },
+   "categories": [
+    "Artificial Intelligence",
+    "Training",
+    "Technology",
+    "Information Session"
+   ],
+   "link": "https://calendar.duke.edu/show?fq=id:CAL-8a002cbd-9fb2e569-019f-f1d514be-00002298demobedework@mysite.edu",
+   "event_url": null,
+   "submitted_by": [
+    "cmj15"
+   ],
+   "allday": false
+  },
+  {
+   "id": "CAL-8a002cbd-9fb2e569-01a0-395aa4b3-000003f1demobedework@mysite.edu",
+   "start_timestamp": "2026-09-22T16:00:00Z",
+   "end_timestamp": "2026-09-22T18:00:00Z",
+   "summary": "CANCELLED Film Screening: The Most Dangerous Man in America, 2009",
+   "description": "The series of screenings has been cancelled. We look forward to rescheduling in the future. \n\nJoin us for the first program in Archives in Motion, a film series hosted by the Archive of Documentary Arts. This casual gathering offers students, staff, faculty and our greater campus community an opportunity to engage with films from the Archive. The selections have been chosen to extend and deepen conversations around the documentary exhibition, \"WARphotography AMERICANimage\", on display through mid-November. Bring your lunch. Desserts and drinks will be available.\n\n\"The Most Dangerous Man in America:: Daniel Ellsberg and the Pentagon Papers\", 2009 (111min)\nProduced by Judith Ehrlich and Rick Goldsmith\n\nIn 1971, Daniel Ellsberg, a high-level Pentagon official and Vietnam War strategist, concludes that the war is based on decades of lies and leaks 7,000 pages of top secret documents to The New York Times, making headlines around the world. \"The Most Dangerous Man in America\" is a riveting story of how one man's profound change of heart created a landmark struggle involving America's newspapers, president and Supreme Court-- a political thriller whose events led directly to Watergate, Nixon's resignation and the end of the Vietnam War. \n\nPart of the New Day Digital Films collection. Among its many awards, this film was nominated for an Academy Award in 2009.",
+   "status": "CANCELLED",
+   "sponsor": "Archive of Documentary Arts",
+   "co_sponsors": [
+    "David M. Rubenstein Rare Book & Manuscript Library"
+   ],
+   "location": {
+    "address": "Rubenstein Library Holsti-Anderson Family Assembly Room 153",
+    "link": "https://maps.duke.edu/?focus=1872"
+   },
+   "contact": {
+    "name": "Kelly, Caitlin",
+    "email": "caitlin.kelly@duke.edu",
+    "phone": "660-3622"
+   },
+   "categories": [
+    "Visual and Creative Arts",
+    "Ethics",
+    "Human Rights",
+    "United States Focus",
+    "Movie/Film",
+    "Free Food and Beverages"
+   ],
+   "link": "https://calendar.duke.edu/show?fq=id:CAL-8a002cbd-9fb2e569-01a0-395aa4b3-000003f1demobedework@mysite.edu",
+   "event_url": null,
+   "submitted_by": [
+    "cmk40"
+   ],
+   "allday": false,
+   "series-name": "Archives in Motion Film Series",
+   "image": "https://calendar.duke.edu/images//2026/20260922/a66d2739c94d987b89a8ae3501885740-CR-EllsbergImageEvets_20260825023716PM.jpg",
+   "image_alt_text": "Daniel Ellsberg at a microphone in front of the United States court house with a crowd behind him"
+  }
+ ]
+}

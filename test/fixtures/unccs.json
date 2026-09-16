@@ -1,0 +1,254 @@
+{
+ "events": [
+  {
+   "id": 33877,
+   "global_id": "cs.unc.edu?id=33877",
+   "global_id_lineage": [
+    "cs.unc.edu?id=33877"
+   ],
+   "author": "90070",
+   "status": "publish",
+   "date": "2026-08-23 12:48:53",
+   "date_utc": "2026-08-23 16:48:53",
+   "modified": "2026-08-23 12:48:53",
+   "modified_utc": "2026-08-23 16:48:53",
+   "url": "https://cs.unc.edu/event/hacknc-2026/",
+   "rest_url": "https://cs.unc.edu/wp-json/tribe/events/v1/events/33877",
+   "title": "HackNC 2026",
+   "description": "<p>HackNC is a weekend for students of all skill levels to broaden their talents. Your challenge is to make an awesome project in just 24 hours. You will have access to hands-on tech workshops, sponsor networking, as well as exciting talks about the awesome things happening right now with computer science and technology &#8211; not to mention all of the free food, shirts, stickers, and swag! HackNC is the largest hackathon in the southeastern United States.</p>\n<p>Visit <a href=\"https://hacknc.com/\">hacknc.com</a>.</p>",
+   "excerpt": "<p>HackNC is a weekend for students of all skill levels to broaden their talents. Your challenge is to make an awesome project in just 24 hours.</p>",
+   "slug": "hacknc-2026",
+   "image": {
+    "url": "https://cs.unc.edu/wp-content/uploads/sites/1265/2025/11/IMG_4884-scaled.jpg",
+    "id": 33049,
+    "extension": "jpg",
+    "width": 2560,
+    "height": 1707,
+    "filesize": 315751,
+    "sizes": {
+     "medium": {
+      "width": 300,
+      "height": 200,
+      "mime-type": "image/jpeg",
+      "filesize": 14005,
+      "url": "https://cs.unc.edu/wp-content/uploads/sites/1265/2025/11/IMG_4884-300x200.jpg"
+     },
+     "large": {
+      "width": 1024,
+      "height": 683,
+      "mime-type": "image/jpeg",
+      "filesize": 82308,
+      "url": "https://cs.unc.edu/wp-content/uploads/sites/1265/2025/11/IMG_4884-1024x683.jpg"
+     },
+     "thumbnail": {
+      "width": 150,
+      "height": 150,
+      "mime-type": "image/jpeg",
+      "filesize": 6551,
+      "url": "https://cs.unc.edu/wp-content/uploads/sites/1265/2025/11/IMG_4884-150x150.jpg"
+     },
+     "medium_large": {
+      "width": 768,
+      "height": 512,
+      "mime-type": "image/jpeg",
+      "filesize": 53684,
+      "url": "https://cs.unc.edu/wp-content/uploads/sites/1265/2025/11/IMG_4884-768x512.jpg"
+     },
+     "1536x1536": {
+      "width": 1536,
+      "height": 1024,
+      "mime-type": "image/jpeg",
+      "filesize": 147560,
+      "url": "https://cs.unc.edu/wp-content/uploads/sites/1265/2025/11/IMG_4884-1536x1024.jpg"
+     },
+     "2048x2048": {
+      "width": 2048,
+      "height": 1365,
+      "mime-type": "image/jpeg",
+      "filesize": 224814,
+      "url": "https://cs.unc.edu/wp-content/uploads/sites/1265/2025/11/IMG_4884-2048x1365.jpg"
+     },
+     "post_thumbnail": {
+      "width": 64,
+      "height": 64,
+      "mime-type": "image/jpeg",
+      "filesize": 2117,
+      "url": "https://cs.unc.edu/wp-content/uploads/sites/1265/2025/11/IMG_4884-64x64.jpg"
+     },
+     "post_thumbshort": {
+      "width": 800,
+      "height": 420,
+      "mime-type": "image/jpeg",
+      "filesize": 49572,
+      "url": "https://cs.unc.edu/wp-content/uploads/sites/1265/2025/11/IMG_4884-800x420.jpg"
+     }
+    },
+    "original_image": "IMG_4884.jpg"
+   },
+   "all_day": true,
+   "start_date": "2026-10-10 00:00:00",
+   "start_date_details": {
+    "year": "2026",
+    "month": "10",
+    "day": "10",
+    "hour": "00",
+    "minutes": "00",
+    "seconds": "00"
+   },
+   "end_date": "2026-10-11 23:59:59",
+   "end_date_details": {
+    "year": "2026",
+    "month": "10",
+    "day": "11",
+    "hour": "23",
+    "minutes": "59",
+    "seconds": "59"
+   },
+   "utc_start_date": "2026-10-10 04:00:00",
+   "utc_start_date_details": {
+    "year": "2026",
+    "month": "10",
+    "day": "10",
+    "hour": "04",
+    "minutes": "00",
+    "seconds": "00"
+   },
+   "utc_end_date": "2026-10-12 03:59:59",
+   "utc_end_date_details": {
+    "year": "2026",
+    "month": "10",
+    "day": "12",
+    "hour": "03",
+    "minutes": "59",
+    "seconds": "59"
+   },
+   "timezone": "America/New_York",
+   "timezone_abbr": "EDT",
+   "cost": "",
+   "cost_details": {
+    "currency_symbol": "$",
+    "currency_code": "USD",
+    "currency_position": "prefix",
+    "values": []
+   },
+   "website": "https://hacknc.com/",
+   "show_map": true,
+   "show_map_link": true,
+   "hide_from_listings": false,
+   "sticky": false,
+   "featured": false,
+   "categories": [],
+   "tags": [],
+   "venue": {
+    "id": 31097,
+    "author": "11620",
+    "status": "publish",
+    "date": "2024-09-13 13:49:33",
+    "date_utc": "2024-09-13 17:49:33",
+    "modified": "2024-09-13 13:49:33",
+    "modified_utc": "2024-09-13 17:49:33",
+    "url": "https://cs.unc.edu/venue/fetzer-gym/",
+    "venue": "Fetzer Gym",
+    "slug": "fetzer-gym",
+    "address": "101 Student Recreation Center",
+    "city": "Chapel Hill",
+    "country": "United States",
+    "state": "NC",
+    "zip": "27514",
+    "stateprovince": "NC",
+    "show_map": false,
+    "show_map_link": false,
+    "global_id": "cs.unc.edu?id=31097",
+    "global_id_lineage": [
+     "cs.unc.edu?id=31097"
+    ]
+   },
+   "organizer": [],
+   "custom_fields": [],
+   "is_virtual": false,
+   "virtual_url": null,
+   "virtual_video_source": ""
+  },
+  {
+   "id": 33893,
+   "global_id": "cs.unc.edu?id=33893",
+   "global_id_lineage": [
+    "cs.unc.edu?id=33893"
+   ],
+   "author": "90070",
+   "status": "publish",
+   "date": "2026-08-23 14:13:53",
+   "date_utc": "2026-08-23 18:13:53",
+   "modified": "2026-08-23 14:15:38",
+   "modified_utc": "2026-08-23 18:15:38",
+   "url": "https://cs.unc.edu/event/unc-cs-mock-tech-fall-2026/",
+   "rest_url": "https://cs.unc.edu/wp-json/tribe/events/v1/events/33893",
+   "title": "Mock Technical Interviewing Night with UNC CS Alumni",
+   "description": "<p><i>This event is for UNC Computer Science and Data Science (BS) students only.</i></p>\n<p><strong>About this event:</strong> Alumni will work 1:1 with students to solve sample technical problems used during the recruiting process.</p>\n<p><strong>Requirements:</strong> All participating students are strongly encouraged to have completed COMP 210 (Data Structures) and be enrolled in or have completed COMP 550 (Algorithms &amp; Analysis).</p>\n<a class=\"btn btn-primary btn-lg  oscitas-bootstrap-container\" target=\"_self\" href=\"https://unc.joinhandshake.com/edu/events/1975564/\">Register via Handshake</a>",
+   "excerpt": "<p>Alumni will work 1:1 with students to solve sample technical problems used during the recruiting process.<br />\nRequirements: All participating students are strongly encouraged to have completed COMP 210 (Data Structures) and be enrolled in or have completed COMP 550 (Algorithms &amp; Analysis).</p>",
+   "slug": "unc-cs-mock-tech-fall-2026",
+   "image": false,
+   "all_day": false,
+   "start_date": "2026-10-20 18:00:00",
+   "start_date_details": {
+    "year": "2026",
+    "month": "10",
+    "day": "20",
+    "hour": "18",
+    "minutes": "00",
+    "seconds": "00"
+   },
+   "end_date": "2026-10-20 20:00:00",
+   "end_date_details": {
+    "year": "2026",
+    "month": "10",
+    "day": "20",
+    "hour": "20",
+    "minutes": "00",
+    "seconds": "00"
+   },
+   "utc_start_date": "2026-10-20 22:00:00",
+   "utc_start_date_details": {
+    "year": "2026",
+    "month": "10",
+    "day": "20",
+    "hour": "22",
+    "minutes": "00",
+    "seconds": "00"
+   },
+   "utc_end_date": "2026-10-21 00:00:00",
+   "utc_end_date_details": {
+    "year": "2026",
+    "month": "10",
+    "day": "21",
+    "hour": "00",
+    "minutes": "00",
+    "seconds": "00"
+   },
+   "timezone": "America/New_York",
+   "timezone_abbr": "EDT",
+   "cost": "",
+   "cost_details": {
+    "currency_symbol": "$",
+    "currency_code": "USD",
+    "currency_position": "prefix",
+    "values": []
+   },
+   "website": "https://unc.joinhandshake.com/edu/events/1975539",
+   "show_map": true,
+   "show_map_link": true,
+   "hide_from_listings": false,
+   "sticky": false,
+   "featured": false,
+   "categories": [],
+   "tags": [],
+   "venue": [],
+   "organizer": [],
+   "custom_fields": [],
+   "is_virtual": true,
+   "virtual_url": "",
+   "virtual_video_source": "video"
+  }
+ ],
+ "total_pages": 1
+}

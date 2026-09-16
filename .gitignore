@@ -1,0 +1,9 @@
+node_modules/
+dist/
+.DS_Store
+*.log
+.playwright-mcp/
+public/data/events.json
+public/data/high.ics
+notify.json
+.env*

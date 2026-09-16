@@ -1,0 +1,202 @@
+{
+ "events": [
+  {
+   "id": 9063,
+   "global_id": "careerhub.unc.edu?id=9063",
+   "global_id_lineage": [
+    "careerhub.unc.edu?id=9063"
+   ],
+   "author": "10",
+   "status": "publish",
+   "date": "2026-08-12 14:17:15",
+   "date_utc": "2026-08-12 18:17:15",
+   "modified": "2026-09-15 17:05:18",
+   "modified_utc": "2026-09-15 21:05:18",
+   "url": "https://careerhub.unc.edu/event/unc-computer-science-fall-2026-tech-career-fair-night-two-in-person/",
+   "rest_url": "https://careerhub.unc.edu/wp-json/tribe/events/v1/events/9063",
+   "title": "UNC Computer Science Fall 2026 Tech Career Fair (Night Two: In-Person)",
+   "description": "<p>Join us for our UNC Computer Science Fall 2026 Tech Career Fair (Night Two: In-Person)!Join us for an in-person tech career fair featuring companies specifically hiring computer science and data science students for jobs and internships. To be eligible to participate, you must be an undergraduate computer science and data science major with an expected graduation date of 2027, 2028, 2029, and 2030.HANDSHAKE-ID:67199;EVENT-MAJORS:COMPUTER SCIENCE (BA), Applied Data Science, Economics, Statistics and Analytics, Computer Science (BS), Computer Science, Mathematics (BS);EVENT-TYPE:Physical;EVENT-AUDIENCES:Junior, Doctorate, Sophomore, Alumni, Masters, Freshman, Senior;EVENT-LOCATION:106 Stadium Drive, Chapel Hill, North Carolina 27514, United States;</p>",
+   "excerpt": "",
+   "slug": "unc-computer-science-fall-2026-tech-career-fair-night-two-in-person",
+   "image": false,
+   "all_day": false,
+   "start_date": "2026-09-16 17:30:00",
+   "start_date_details": {
+    "year": "2026",
+    "month": "09",
+    "day": "16",
+    "hour": "17",
+    "minutes": "30",
+    "seconds": "00"
+   },
+   "end_date": "2026-09-16 20:45:00",
+   "end_date_details": {
+    "year": "2026",
+    "month": "09",
+    "day": "16",
+    "hour": "20",
+    "minutes": "45",
+    "seconds": "00"
+   },
+   "utc_start_date": "2026-09-16 21:30:00",
+   "utc_start_date_details": {
+    "year": "2026",
+    "month": "09",
+    "day": "16",
+    "hour": "21",
+    "minutes": "30",
+    "seconds": "00"
+   },
+   "utc_end_date": "2026-09-17 00:45:00",
+   "utc_end_date_details": {
+    "year": "2026",
+    "month": "09",
+    "day": "17",
+    "hour": "00",
+    "minutes": "45",
+    "seconds": "00"
+   },
+   "timezone": "America/New_York",
+   "timezone_abbr": "EDT",
+   "cost": "",
+   "cost_details": {
+    "currency_symbol": "",
+    "currency_code": "",
+    "currency_position": "",
+    "values": []
+   },
+   "website": "https://app.joinhandshake.com/edu/career_fairs/67199",
+   "show_map": false,
+   "show_map_link": false,
+   "hide_from_listings": false,
+   "sticky": false,
+   "featured": false,
+   "categories": [
+    {
+     "name": "Career Fairs",
+     "slug": "career-fairs",
+     "term_group": 0,
+     "term_taxonomy_id": 105,
+     "taxonomy": "tribe_events_cat",
+     "description": "",
+     "parent": 34,
+     "count": 12,
+     "filter": "raw",
+     "term_order": "0",
+     "id": 105,
+     "urls": {
+      "self": "https://careerhub.unc.edu/wp-json/tribe/events/v1/categories/105",
+      "collection": "https://careerhub.unc.edu/wp-json/tribe/events/v1/categories",
+      "up": "https://careerhub.unc.edu/wp-json/tribe/events/v1/categories/34"
+     }
+    }
+   ],
+   "tags": [],
+   "venue": [],
+   "organizer": [],
+   "custom_fields": [],
+   "is_virtual": false,
+   "virtual_url": null,
+   "virtual_video_source": ""
+  },
+  {
+   "id": 8942,
+   "global_id": "careerhub.unc.edu?id=8942",
+   "global_id_lineage": [
+    "careerhub.unc.edu?id=8942"
+   ],
+   "author": "10",
+   "status": "publish",
+   "date": "2026-07-18 18:05:27",
+   "date_utc": "2026-07-18 22:05:27",
+   "modified": "2026-07-27 04:05:13",
+   "modified_utc": "2026-07-27 08:05:13",
+   "url": "https://careerhub.unc.edu/event/unc-cs-career-panel-ask-the-engineer-meet-the-recruiter/",
+   "rest_url": "https://careerhub.unc.edu/wp-json/tribe/events/v1/events/8942",
+   "title": "UNC CS Career Panel: Ask the Engineer. Meet the Recruiter",
+   "description": "<p>Hear directly from engineers about what the work actually looks like day-to-day, then connect with both engineers and recruiters in an informal networking session!HANDSHAKE-ID:1964422;EVENT-MAJORS:Political Science;EVENT-TYPE:Speaker/Panel (In-Person);EVENT-AUDIENCES:Undergraduate;EVENT-LOCATION:Chapel Hill, NC 27514, USA;</p>",
+   "excerpt": "",
+   "slug": "unc-cs-career-panel-ask-the-engineer-meet-the-recruiter",
+   "image": false,
+   "all_day": false,
+   "start_date": "2026-09-30 18:00:00",
+   "start_date_details": {
+    "year": "2026",
+    "month": "09",
+    "day": "30",
+    "hour": "18",
+    "minutes": "00",
+    "seconds": "00"
+   },
+   "end_date": "2026-09-30 20:00:00",
+   "end_date_details": {
+    "year": "2026",
+    "month": "09",
+    "day": "30",
+    "hour": "20",
+    "minutes": "00",
+    "seconds": "00"
+   },
+   "utc_start_date": "2026-09-30 22:00:00",
+   "utc_start_date_details": {
+    "year": "2026",
+    "month": "09",
+    "day": "30",
+    "hour": "22",
+    "minutes": "00",
+    "seconds": "00"
+   },
+   "utc_end_date": "2026-10-01 00:00:00",
+   "utc_end_date_details": {
+    "year": "2026",
+    "month": "10",
+    "day": "01",
+    "hour": "00",
+    "minutes": "00",
+    "seconds": "00"
+   },
+   "timezone": "America/New_York",
+   "timezone_abbr": "EDT",
+   "cost": "",
+   "cost_details": {
+    "currency_symbol": "",
+    "currency_code": "",
+    "currency_position": "",
+    "values": []
+   },
+   "website": "https://app.joinhandshake.com/edu/events/1964422",
+   "show_map": false,
+   "show_map_link": false,
+   "hide_from_listings": false,
+   "sticky": false,
+   "featured": false,
+   "categories": [
+    {
+     "name": "Handshake",
+     "slug": "handshake",
+     "term_group": 0,
+     "term_taxonomy_id": 34,
+     "taxonomy": "tribe_events_cat",
+     "description": "",
+     "parent": 0,
+     "count": 16,
+     "filter": "raw",
+     "term_order": "0",
+     "id": 34,
+     "urls": {
+      "self": "https://careerhub.unc.edu/wp-json/tribe/events/v1/categories/34",
+      "collection": "https://careerhub.unc.edu/wp-json/tribe/events/v1/categories"
+     }
+    }
+   ],
+   "tags": [],
+   "venue": [],
+   "organizer": [],
+   "custom_fields": [],
+   "is_virtual": false,
+   "virtual_url": null,
+   "virtual_video_source": ""
+  }
+ ],
+ "total_pages": 1
+}

@@ -1,0 +1,95 @@
+name: Refresh, deploy and alert
+
+on:
+  schedule:
+    # Every 3 hours. Employer sessions get posted to Heel Life and the Career Hub with only a few
+    # days of notice, so a daily run would miss the window to sign up.
+    - cron: '41 */3 * * *'
+  push:
+    branches: [main]
+  workflow_dispatch:
+
+permissions:
+  contents: read
+  pages: write
+  id-token: write
+
+# Never let a scheduled run and a push run race each other onto Pages.
+concurrency:
+  group: pages
+  cancel-in-progress: false
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '22'
+          cache: npm
+
+      - run: npm ci
+
+      - name: Unit tests
+        run: npm test
+
+      - name: Pull and score every calendar
+        run: npm run ingest
+
+      - name: Build site
+        run: npm run build
+
+      - name: Report what shipped
+        run: |
+          node -e "
+            const d = require('./public/data/events.json');
+            const n = require('./notify.json');
+            const ok = d.sources.filter(s => s.ok).length;
+            console.log(\`\${d.counts.high} high, \${d.counts.medium} worth a look, \${n.length} new for push, \${ok}/\${d.sources.length} sources ok\`);
+            for (const s of d.sources) console.log(\` \${s.ok ? 'ok  ' : 'FAIL'} \${s.key.padEnd(10)} \${s.count}\`);
+          "
+
+      - uses: actions/configure-pages@v5
+
+      - uses: actions/upload-pages-artifact@v3
+        with:
+          path: dist
+
+      - uses: actions/upload-artifact@v4
+        with:
+          name: notify
+          path: notify.json
+          retention-days: 3
+
+  deploy:
+    needs: build
+    runs-on: ubuntu-latest
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    steps:
+      - id: deployment
+        uses: actions/deploy-pages@v4
+
+  # Pushes go out only after the new site is live. If the deploy fails, the next run still sees
+  # the old live payload and sends the alert then, so nothing is lost and nothing is sent twice.
+  notify:
+    needs: deploy
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '22'
+
+      - uses: actions/download-artifact@v4
+        with:
+          name: notify
+
+      - name: Push new high-value events
+        env:
+          NTFY_TOPIC: ${{ secrets.NTFY_TOPIC }}
+        run: node scripts/notify.mjs notify.json

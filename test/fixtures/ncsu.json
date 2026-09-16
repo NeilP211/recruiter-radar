@@ -1,0 +1,244 @@
+{
+ "events": [
+  {
+   "event": {
+    "id": 53675153269022,
+    "title": "Organic Soil Health Field School: Train-the-Trainer",
+    "url": "",
+    "updated_at": "2026-09-15T07:22:53-04:00",
+    "created_at": "2026-08-11T15:10:18-04:00",
+    "facebook_id": null,
+    "first_date": "2026-09-16",
+    "last_date": "2026-09-16",
+    "hashtag": null,
+    "urlname": "organic-soil-health-field-school-train-the-trainer",
+    "user_id": 35176206969353,
+    "directions": null,
+    "allows_reviews": false,
+    "allows_attendance": true,
+    "location": "Cherry Research Farm",
+    "room_number": "Center for Environmental Farming Systems Field Research, Education and Outreach Facility",
+    "location_name": "Cherry Research Farm",
+    "status": "live",
+    "experience": "inperson",
+    "stream_url": null,
+    "stream_info": null,
+    "stream_embed_code": null,
+    "created_by": 35176206969353,
+    "updated_by": 30459145368969,
+    "conference_event_id": null,
+    "kind": "standalone",
+    "address": "604 Farm Road Goldsboro, NC",
+    "school_id": 256,
+    "campus_id": null,
+    "recurring": false,
+    "free": false,
+    "private": false,
+    "verified": true,
+    "rejected": false,
+    "sponsored": false,
+    "venue_id": null,
+    "ticket_url": "https://www.eventbrite.com/e/organic-soil-health-field-school-train-the-trainer-tickets-1992006518119",
+    "ticket_cost": "$18",
+    "has_register": false,
+    "keywords": [],
+    "tags": [],
+    "description": "<p>Join the&nbsp;Center for Environmental Farming Systems for <a href=\"https://cefs.ncsu.edu/event/organic-soil-health-field-school/\">the&nbsp;</a><span><a href=\"https://cefs.ncsu.edu/event/organic-soil-health-field-school/\">Organic Soil Health Field School</a>, a&nbsp;<span>hands-on workshop<b>&nbsp;</b></span><span>focused on practical soil health strategies for organic farming systems. This train-the-trainer workshop is designed for Extension agents, farmers, educators, agency partners and agricultural stakeholders working with row crops, small-scale vegetables and specialty crops. Participants will learn about organic soil health practices, crop production, soil biology, soil carbon, greenhouse gas emissions and more. The workshop will provide practical, field-based knowledge that participants can use on farms and share with producers and communities.</span></span></p>\n\n<p><span><span>Lunch and snacks will be provided. </span></span></p>\n\n<p>Sustainable Agriculture Research and Education (SARE) is sponsoring the workshop. NC Cooperative Extension agents and other trainers may qualify for free registration. Complete&nbsp;<a href=\"https://docs.google.com/forms/d/e/1FAIpQLSeRaU2TiMSWCyCDQ3QgfdFA8SWB0x9qPMe-db9-P2Yfvtrw3Q/viewform?usp=preview \">the Soil Health Field School form</a> to apply&nbsp;before you register.&nbsp;If you qualify for free registration, SARE will reach out to you to provide a code to register for free.&nbsp;</p>\n\n<p>Southern SARE is also providing scholarships for farmers to attend this event. Complete <a href=\"https://docs.google.com/forms/d/e/1FAIpQLSf8zuSwETQW2L4w5HURTkThTxxS_2W4YLdZ0J-tCacQBX9Cnw/viewform?usp=header\">the scholarship form</a> to apply.</p>\n",
+    "description_text": "Join the Center for Environmental Farming Systems for the Organic Soil Health Field School, a hands-on workshop focused on practical soil health strategies for organic farming systems. This train-the-trainer workshop is designed for Extension agents, farmers, educators, agency partners and agricultural stakeholders working with row crops, small-scale vegetables and specialty crops. Participants will learn about organic soil health practices, crop production, soil biology, soil carbon, greenhouse gas emissions and more. The workshop will provide practical, field-based knowledge that participants can use on farms and share with producers and communities.\n\nLunch and snacks will be provided. \n\nSustainable Agriculture Research and Education (SARE) is sponsoring the workshop. NC Cooperative Extension agents and other trainers may qualify for free registration. Complete the Soil Health Field School form to apply before you register. If you qualify for free registration, SARE will reach out to you to provide a code to register for free. \n\nSouthern SARE is also providing scholarships for farmers to attend this event. Complete the scholarship form to apply.",
+    "photo_id": 41064718614997,
+    "detail_views": 80,
+    "featured": false,
+    "publish_status": "published",
+    "geo": {
+     "latitude": "35.383943",
+     "longitude": "-78.034583",
+     "street": "604 Farm Road",
+     "city": "Goldsboro",
+     "state": "NC",
+     "country": "US",
+     "zip": "27530"
+    },
+    "groups": [
+     {
+      "id": 42350180384791,
+      "name": "Center for Environmental Farming Systems"
+     }
+    ],
+    "departments": [
+     {
+      "id": 24267,
+      "name": "College of Agriculture and Life Sciences"
+     }
+    ],
+    "filters": {
+     "event_target_audience": [
+      {
+       "name": "Students",
+       "id": 42801868907220
+      },
+      {
+       "name": "Alumni",
+       "id": 42801887368459
+      },
+      {
+       "name": "General Public",
+       "id": 42801892409671
+      },
+      {
+       "name": "Staff",
+       "id": 42801920688631
+      },
+      {
+       "name": "Faculty",
+       "id": 42801921971972
+      },
+      {
+       "name": "Postdocs",
+       "id": 46189524299298
+      }
+     ],
+     "event_topic": [
+      {
+       "name": "Sustainability",
+       "id": 36006217615771
+      }
+     ],
+     "event_types": [
+      {
+       "name": "Workshops and Training",
+       "id": 139967
+      }
+     ]
+    },
+    "custom_fields": {},
+    "event_instances": [
+     {
+      "event_instance": {
+       "id": 53675153269023,
+       "event_id": 53675153269022,
+       "start": "2026-09-16T08:00:00-04:00",
+       "end": "2026-09-16T12:00:00-04:00",
+       "ranking": 0.15,
+       "all_day": false,
+       "num_attending": 0
+      }
+     }
+    ],
+    "localist_url": "https://calendar.ncsu.edu/event/organic-soil-health-field-school-train-the-trainer",
+    "localist_ics_url": "https://calendar.ncsu.edu/event/organic-soil-health-field-school-train-the-trainer.ics",
+    "photo_url": "https://localist-images.azureedge.net/photos/41064718614997/huge/bb924e11257666dceace034ece0d1abe62c7c70c.jpg"
+   }
+  },
+  {
+   "event": {
+    "id": 53744591102342,
+    "title": "Apply to the Pack: A Guide for International Graduate Students",
+    "url": "",
+    "updated_at": "2026-09-15T07:26:49-04:00",
+    "created_at": "2026-08-19T11:32:02-04:00",
+    "facebook_id": null,
+    "first_date": "2026-09-16",
+    "last_date": "2026-09-16",
+    "hashtag": null,
+    "urlname": "apply-to-the-pack-a-guide-for-international-graduate-students-7150",
+    "user_id": 51498895169519,
+    "directions": null,
+    "allows_reviews": false,
+    "allows_attendance": true,
+    "location": "",
+    "room_number": null,
+    "location_name": "",
+    "status": "live",
+    "experience": "virtual",
+    "stream_url": "https://go.ncsu.edu/joinwebinar ",
+    "stream_info": "",
+    "stream_embed_code": "",
+    "created_by": 51498895169519,
+    "updated_by": 30459145368969,
+    "conference_event_id": null,
+    "kind": "standalone",
+    "address": "",
+    "school_id": 256,
+    "campus_id": null,
+    "recurring": false,
+    "free": true,
+    "private": false,
+    "verified": true,
+    "rejected": false,
+    "sponsored": false,
+    "venue_id": null,
+    "ticket_url": "https://applygrad.ncsu.edu/register/sep16",
+    "ticket_cost": "Free",
+    "has_register": false,
+    "keywords": [],
+    "tags": [],
+    "description": "<p>Are you ready to turn your ambitions into reality? If so, join the Graduate School for an in-depth session on how to successfully&nbsp;apply&nbsp;to graduate school at NC State. We will provide a step-by-step walkthrough of the application portal, clarify department-specific requirements and share tips for crafting a standout personal statement. Current international students will also be there to share their experience and offer advice. If you are in the process of choosing your future university, this is the session for you.</p>\n",
+    "description_text": "Are you ready to turn your ambitions into reality? If so, join the Graduate School for an in-depth session on how to successfully apply to graduate school at NC State. We will provide a step-by-step walkthrough of the application portal, clarify department-specific requirements and share tips for crafting a standout personal statement. Current international students will also be there to share their experience and offer advice. If you are in the process of choosing your future university, this is the session for you.",
+    "photo_id": 53744591141262,
+    "detail_views": 110,
+    "featured": false,
+    "publish_status": "published",
+    "geo": {
+     "latitude": null,
+     "longitude": null,
+     "street": null,
+     "city": null,
+     "state": null,
+     "country": null,
+     "zip": null
+    },
+    "departments": [
+     {
+      "id": 24510,
+      "name": "The Graduate School"
+     }
+    ],
+    "filters": {
+     "event_target_audience": [
+      {
+       "name": "General Public",
+       "id": 42801892409671
+      }
+     ],
+     "event_topic": [
+      {
+       "name": "Global",
+       "id": 35652484662580
+      },
+      {
+       "name": "Student Recruitment and Admissions",
+       "id": 37997150272722
+      }
+     ],
+     "event_types": [
+      {
+       "name": "Information Session",
+       "id": 46189607027915
+      }
+     ]
+    },
+    "custom_fields": {},
+    "event_instances": [
+     {
+      "event_instance": {
+       "id": 53744591102343,
+       "event_id": 53744591102342,
+       "start": "2026-09-16T09:15:00-04:00",
+       "end": "2026-09-16T10:15:00-04:00",
+       "ranking": 0.15,
+       "all_day": false,
+       "num_attending": 0
+      }
+     }
+    ],
+    "localist_url": "https://calendar.ncsu.edu/event/apply-to-the-pack-a-guide-for-international-graduate-students-7150",
+    "localist_ics_url": "https://calendar.ncsu.edu/event/apply-to-the-pack-a-guide-for-international-graduate-students-7150.ics",
+    "photo_url": "https://localist-images.azureedge.net/photos/53744591141262/huge/1a080450382405e137c3408d5501eedcdd9ad02a.jpg"
+   }
+  }
+ ],
+ "page": {
+  "current": 1,
+  "total": 1
+ }
+}
