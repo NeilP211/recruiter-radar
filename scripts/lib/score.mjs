@@ -22,6 +22,8 @@ const NEGATIVE = [
   [/\bnursing\b|\bPharmD\b|\bdental\b|\bveterinar/i, 'health professions'],
   [/\bsororit|\bfraternit|\bpanhellenic\b|\brush week\b/i, 'Greek life'],
   [/\bstudent-athletes?\b/i, 'athletes only'],
+  // Employers sometimes run separate sessions for business roles and say so in the title.
+  [/\bnon-?tech(?:nical)?\b/i, 'non-technical roles'],
   [/\bpart-time jobs?\b/i, 'part-time jobs'],
   [/\bteach for america\b|\bpeace corps\b/i, 'service programs'],
   [/\badmissions office\b|\bopen house for (?:prospective|admitted)\b|\bprospective students\b/i, 'admissions'],

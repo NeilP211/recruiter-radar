@@ -38,6 +38,7 @@ const CASES = [
   ['medium', E('Career Pathways in Tech', 'Hear from alumni about internships in tech.', 'UNC Career Center')],
 
   // Dropped: other fields, admissions, Greek life, noise.
+  ['drop', E('Bloomberg Info Session - Internship & Full Time Roles (Non-Tech or Eng)', 'Learn about internship and full-time roles.', 'UNC Career Center')],
   ['drop', E('Phi Sigma Pi Recruitment Event- Trivia Night', '', 'Phi Sigma Pi National Gender-Inclusive Honor Fraternity')],
   ['drop', E('Jenkins MBA Admissions Office Hours at 321 Coffee', '', '', 'ncsu')],
   ['drop', E('UNC-CH Fall 2026 Student-Athlete Career Fair', '', '', 'careerhub')],
