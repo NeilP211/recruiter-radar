@@ -67,6 +67,7 @@ ever sends nothing, and more than five new events at once collapse into one summ
 
 1. Install the ntfy app.
 2. Subscribe to the topic stored in the repo secret `NTFY_TOPIC`.
+3. Confirm it works: Actions, "Refresh, deploy and alert", Run workflow, tick "Also send a test push".
 
 There is also a subscribable calendar of high-value events at
 `https://neilp211.github.io/recruiter-radar/data/high.ics`.

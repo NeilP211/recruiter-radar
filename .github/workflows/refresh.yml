@@ -8,6 +8,11 @@ on:
   push:
     branches: [main]
   workflow_dispatch:
+    inputs:
+      test_push:
+        description: Also send a test push to confirm phone alerts work
+        type: boolean
+        default: false
 
 permissions:
   contents: read
@@ -93,3 +98,9 @@ jobs:
         env:
           NTFY_TOPIC: ${{ secrets.NTFY_TOPIC }}
         run: node scripts/notify.mjs notify.json
+
+      - name: Test push
+        if: ${{ inputs.test_push }}
+        env:
+          NTFY_TOPIC: ${{ secrets.NTFY_TOPIC }}
+        run: node scripts/notify.mjs --test

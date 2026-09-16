@@ -48,10 +48,25 @@ export function buildMessages(events, topic) {
   }));
 }
 
+export const TEST_MESSAGE = {
+  title: 'Recruiter Radar alerts are on',
+  message: 'A push like this arrives when a new high-value event shows up. Tap to open the list.',
+  click: SITE_URL,
+  tags: ['white_check_mark'],
+  priority: 3,
+};
+
 async function main() {
   const file = process.argv[2] ?? 'notify.json';
-  const events = JSON.parse(await readFile(file, 'utf8'));
   const topic = process.env.NTFY_TOPIC;
+  if (process.argv.includes('--test')) {
+    if (!topic) throw new Error('NTFY_TOPIC is not set');
+    const res = await fetch('https://ntfy.sh/', { method: 'POST', headers: { 'Content-Type': 'application/json' }, body: JSON.stringify({ topic, ...TEST_MESSAGE }) });
+    console.log(`test push: HTTP ${res.status}`);
+    if (!res.ok) process.exitCode = 1;
+    return;
+  }
+  const events = JSON.parse(await readFile(file, 'utf8'));
   if (!events.length) {
     console.log('no new high-value events');
     return;
