@@ -3,28 +3,31 @@ const WEBCAL = CAL_URL.replace(/^https?:/, 'webcal:');
 
 export default function AlertsPanel({ onClose }) {
   return (
-    <aside className="panel" aria-label="Alerts and calendar">
-      <div className="panel-grid">
-        <section>
-          <h2>Phone alerts</h2>
-          <p>When a new high value event appears, a push goes out through <a href="https://ntfy.sh" target="_blank" rel="noopener noreferrer">ntfy</a>, a free notification app with no account.</p>
-          <ol className="steps">
-            <li>Install ntfy from the App Store or Google Play.</li>
-            <li>Tap <b>+</b> and subscribe to your private topic name. It is stored as a GitHub secret on this repo and never shown on this page.</li>
-            <li>Leave notifications on. Checks run every three hours.</li>
-          </ol>
-        </section>
-        <section>
-          <h2>Calendar feed</h2>
-          <p>Subscribe once and every high value event shows up in your calendar, updating on its own.</p>
-          <div className="actions">
-            <a className="btn btn-primary" href={WEBCAL}>Subscribe (Apple, Outlook)</a>
-            <a className="btn" href={`https://calendar.google.com/calendar/r?cid=${encodeURIComponent(WEBCAL)}`} target="_blank" rel="noopener noreferrer">Add to Google Calendar</a>
-          </div>
-          <p className="fine">Feed URL: <code>{CAL_URL}</code></p>
-        </section>
+    <section className="card alerts" aria-labelledby="alerts-h">
+      <div className="alerts-head">
+        <h2 id="alerts-h">Alerts and calendar</h2>
+        <button type="button" className="icon-btn" onClick={onClose} aria-label="Close alerts panel">&times;</button>
       </div>
-      <button type="button" className="btn btn-small panel-close" onClick={onClose}>Close</button>
-    </aside>
+      <div className="alerts-grid">
+        <div>
+          <p className="kicker">Phone push</p>
+          <p className="body">New high-value events push to your phone through <a href="https://ntfy.sh" target="_blank" rel="noopener noreferrer">ntfy</a>, checked every three hours.</p>
+          <ol className="steps">
+            <li><span>01</span> Install ntfy from the App Store or Google Play.</li>
+            <li><span>02</span> Tap + and subscribe to your private topic (kept as a GitHub secret, never shown here).</li>
+            <li><span>03</span> Leave notifications on.</li>
+          </ol>
+        </div>
+        <div>
+          <p className="kicker">Calendar feed</p>
+          <p className="body">Subscribe once and every high-value event lands in your calendar and stays up to date.</p>
+          <div className="row-btns">
+            <a className="solid-btn" href={WEBCAL}>Apple / Outlook</a>
+            <a className="ghost-btn" href={`https://calendar.google.com/calendar/r?cid=${encodeURIComponent(WEBCAL)}`} target="_blank" rel="noopener noreferrer">Google Calendar</a>
+          </div>
+          <p className="fine"><code>{CAL_URL}</code></p>
+        </div>
+      </div>
+    </section>
   );
 }

@@ -1,7 +1,7 @@
 import { test } from 'node:test';
 import assert from 'node:assert/strict';
 
-import { newHighEvents, buildArchive, flagSilentDropouts, carryForwardFailed, scoreAll, withinHorizon } from '../scripts/ingest.mjs';
+import { newHighEvents, buildArchive, flagSilentDropouts, carryForwardFailed, scoreAll, withinHorizon, mergeCarried } from '../scripts/ingest.mjs';
 
 const NOW = new Date('2026-09-16T12:00:00Z');
 const DAY = 86_400_000;
@@ -70,4 +70,12 @@ test('scoreAll keeps high and medium and drops the rest', () => {
 test('the horizon keeps today and drops the far future', () => {
   const events = [{ start: at(-0.25) }, { start: at(10) }, { start: at(400) }, { start: 'bad' }];
   assert.equal(withinHorizon(events, NOW).length, 2);
+});
+
+test('a carried-over event merges with a fresh copy listed under another title', () => {
+  const fresh = [{ id: 'heellife:1', source: 'heellife', title: 'Fall Jobs & Internships Career Fair 2026', description: '', start: '2026-09-17T14:00:00.000Z', tier: 'high' }];
+  const carried = [{ id: 'careerhub:9064', source: 'careerhub', title: 'UNC Career Center Fall Jobs & Internships Career Fair 2026', description: '', start: '2026-09-17T14:00:00.000Z', tier: 'high' }];
+  const merged = mergeCarried(fresh, carried);
+  assert.equal(merged.length, 1);
+  assert.equal(merged[0].source, 'careerhub');
 });

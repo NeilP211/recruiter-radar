@@ -107,6 +107,15 @@ export function withinHorizon(events, now) {
   });
 }
 
+/**
+ * Put carried-over events back next to fresh ones. They go through the same fuzzy dedupe, because a
+ * source that failed this run (the Career Hub, 2026-09-17) usually lists the same fair that Heel Life
+ * still returned under a different title.
+ */
+export function mergeCarried(fresh, carried) {
+  return dedupe([...fresh, ...carried]).sort((a, b) => a.start.localeCompare(b.start));
+}
+
 /** Score and keep only what is worth showing. */
 export function scoreAll(events) {
   const out = [];
@@ -197,10 +206,7 @@ async function main() {
 
   const fresh = scoreAll(dedupe(withinHorizon(results.flatMap((r) => r.events), now)));
   // Carried-over events were already scored last run; keep their tier as it was.
-  const carried = carryForwardFailed(statuses, prev, now);
-  const byKey = new Map();
-  for (const e of [...carried, ...fresh]) byKey.set(dedupeKey(e), e);
-  const events = [...byKey.values()].sort((a, b) => a.start.localeCompare(b.start));
+  const events = mergeCarried(fresh, carryForwardFailed(statuses, prev, now));
 
   const archive = buildArchive(prev, now);
   const toNotify = newHighEvents(events, prev, now);

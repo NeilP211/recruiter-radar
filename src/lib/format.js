@@ -7,7 +7,7 @@ export const monthShort = (iso) => part(iso, { month: 'short' }).toUpperCase();
 export const dayNum = (iso) => part(iso, { day: 'numeric' });
 export const weekdayShort = (iso) => part(iso, { weekday: 'short' });
 export const timeLabel = (e) => (e.allDay ? 'All day' : part(e.start, { hour: 'numeric', minute: '2-digit' }));
-export const fullDate = (iso) => part(iso, { weekday: 'long', month: 'long', day: 'numeric' });
+export const fullDate = (iso) => part(iso, { weekday: 'short', month: 'short', day: 'numeric' });
 
 export function easternDayKey(iso) {
   return new Date(iso).toLocaleDateString('en-CA', { timeZone: TZ });

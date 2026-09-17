@@ -17,10 +17,11 @@ export function sleep(ms) {
  * Throws on a non-ok response so callers can decide whether the source is
  * optional (see runSource in ingest.mjs, which degrades instead of failing).
  */
-export async function get(url, { timeout = DEFAULT_TIMEOUT, retries = 2, headers = {} } = {}) {
+export async function get(url, { timeout = DEFAULT_TIMEOUT, retries = 3, headers = {} } = {}) {
   let lastErr;
   for (let attempt = 0; attempt <= retries; attempt++) {
-    if (attempt > 0) await sleep(600 * attempt);
+    // 1s, 2s, 4s: long enough to ride out the brief resets GitHub runners see from campus hosts.
+    if (attempt > 0) await sleep(1000 * 2 ** (attempt - 1));
     const controller = new AbortController();
     const timer = setTimeout(() => controller.abort(), timeout);
     try {
